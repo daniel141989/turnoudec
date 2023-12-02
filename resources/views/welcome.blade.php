@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', __('Welcome'))
+@section('title', __('Bienvenido Funcionario'))
 @section('content')
 <div class="container-fluid">
 <div class="row justify-content-center">
@@ -10,7 +10,7 @@
               <h5>  
             @guest
 				
-				{{ __('bienvenido a Diseturnos') }} {{ config('app.name', 'Larave') }} !!! </br>
+				{{ __('bienvenido a Diseturnos') }} {{ config('app.name', 'Laravel') }} !!! </br>
 				Por favor, comuníquese con el administrador para obtener sus credenciales de inicio de sesión o haga clic en "Iniciar sesión" para ir a su panel de control.
                 
 			@else
