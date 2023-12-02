@@ -81,7 +81,7 @@ class Empleados extends Component
         
         $this->resetInput();
 		$this->dispatchBrowserEvent('closeModal');
-		session()->flash('message', 'Empleado Successfully created.');
+		session()->flash('message', 'Empleado creado con exito.');
     }
 
     public function edit($id)
@@ -132,7 +132,7 @@ class Empleados extends Component
 
             $this->resetInput();
             $this->dispatchBrowserEvent('closeModal');
-			session()->flash('message', 'Empleado Successfully updated.');
+			session()->flash('message', 'Empleado editado con exito.');
         }
     }
 
