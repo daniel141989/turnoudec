@@ -38,7 +38,7 @@
 								<th>Perfil Sistema Id</th>
 								<th>Especialidad Id</th>
 								<th>Fecha Ingreso</th>
-								<td>ACTIONS</td>
+								<td>ACCIONES</td>
 							</tr>
 						</thead>
 						<tbody>

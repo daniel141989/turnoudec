@@ -36,7 +36,7 @@
 					<div class="col-md-3">
 						<div class="card border-warning mx-sm-1 p-3">
 							<div class="card border-warning text-warning p-3 my-card" ><span class="text-center fa fa-users" aria-hidden="true"></span></div>
-							<div class="text-warning text-center mt-3"><h4>Users</h4></div>
+							<div class="text-warning text-center mt-3"><h4>Usuarios registrados</h4></div>
 							<div class="text-warning text-center mt-2"><h1>{{ Auth::user()->count() }}</h1></div>
 						</div>
 					</div>
