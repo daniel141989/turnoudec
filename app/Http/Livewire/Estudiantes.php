@@ -77,7 +77,7 @@ class Estudiantes extends Component
         
         $this->resetInput();
 		$this->dispatchBrowserEvent('closeModal');
-		session()->flash('message', 'Estudiante Successfully created.');
+		session()->flash('message', 'Estudiante creado con exito.');
     }
 
     public function edit($id)
@@ -125,7 +125,7 @@ class Estudiantes extends Component
 
             $this->resetInput();
             $this->dispatchBrowserEvent('closeModal');
-			session()->flash('message', 'Estudiante Successfully updated.');
+			session()->flash('message', 'Estudiante editado con exito.');
         }
     }
 
