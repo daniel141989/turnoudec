@@ -7,7 +7,7 @@
 		<div class="card">
 			<div class="card-header"><h5><span class="text-center fa fa-home"></span> @yield('title')</h5></div>
 			<div class="card-body">
-				<h5>Hi <strong>{{ Auth::user()->name }},</strong> {{ __('ya accediste a  ') }}{{ config('app.name', 'Laravel') }}</h5>
+				<h5>Hola <strong>{{ Auth::user()->name }},</strong> {{ __('ya accediste a  ') }}{{ config('app.name', 'Diseturno') }}</h5>
 				</br> 
 				<hr>
 								
